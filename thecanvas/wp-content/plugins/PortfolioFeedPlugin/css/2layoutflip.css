@@ -1,0 +1,116 @@
+/**
+* Portfolio Feed Plugin CSS
+* Package: Portfolio Feed Plugin
+* Version: 2.0.4
+* Author: Anthony Schifferns <schift.pro@gmail.com>
+* Copyright (C) 2015 Anthony Schifferns
+* The stylesheet of the Portfolio Feed Plugin widget
+*/
+
+
+/* Your awesome customizations start right here !
+-------------------------------------------------------------- */
+h2 { 
+font-family: Verdana; 
+color: #fff; 
+font-size: 25px; 
+line-height: 40px; 
+}
+ 
+p { 
+color: #fff;
+font-family: Verdana, sans-serif; 
+font-size: 16px; 
+ 
+}
+ 
+.newhover { 
+width: 300px; 
+height: 250px;
+margin: 10px; 
+position: relative; 
+overflow: hidden; 
+-webkit-box-shadow: 0px 7px 19px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 19px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 19px 0px rgba(0,0,0,0.75); 
+}
+ 
+ 
+.newhover img { 
+transition: 0.5s; 
+-moz-transition: 0.5s; /* Old Firefox */
+-webkit-transition: 0.5s;  /* Safari & Chrome */
+-o-transition: 0.5s;  /* Opera */
+} 
+ 
+ 
+.newhover .effect, .hoverover .content { 
+width: 300px; 
+height: 250px; 
+left: 0;
+overflow: hidden;
+position: absolute;
+top: 0;
+} 
+ 
+.newhover .effect { 
+padding:11px;
+border: 6px solid #FFFFFF;
+ background-image: url("http://localhost/thecanvas/wp-content/uploads/2015/10/canvas-background.jpg");
+transform: translateY(-250px) rotate(0deg); 
+-moz-transform: translateY(-250px) rotate(0deg); /* Old Firefox */
+-webkit-transform: translateY(-250px) rotate(0deg);  /* Safari & Chrome */
+-o-transform: translateY(-250px) rotate(0deg); /* Opera */
+opacity: 0.9;
+}
+ 
+.newhover:hover .effect  { 
+transition: 0.5s; 
+-moz-transition: 0.5s; /* Old Firefox */
+-webkit-transition: 0.5s; /* Safari & Chrome */
+-o-transition: 0.5s; /* Opera */
+transform: translateY(0px) rotate(360deg); 
+-moz-transform: translateY(0px) rotate(360deg); /* Old Firefox */
+-webkit-transform: translateY(0px) rotate(360deg); /* Safari & Chrome */
+-o-transform: translateY(0px) rotate(360deg); /* Opera */
+} 
+ 
+.newhover:hover img { 
+transform: translateY(-250px) rotate(180deg);
+-moz-transform: translateY(-250px) rotate(180deg); /* Old Firefox */
+-webkit-transform: translateY(-250px) rotate(180deg); /* Safari & Chrome */
+-o-transform: translateY(-250px) rotate(180deg); /* Opera */
+transition: 0.5s; 
+-moz-transition: 0.5s; /* Old Firefox */
+-webkit-transition: 0.5s; /* Safari & Chrome */
+-o-transition: 0.5s; /* Opera */
+}
+ 
+.newhover:hover p { 
+opacity: 1;
+}
+ 
+a.box1 { 
+background-color: #000; 
+border-radius: 5px; 
+color: #fff;
+padding: 10px; 
+text-decoration: none; 
+} 
+ 
+a.box1:hover { 
+background-color: #333;
+color: #fff;
+text-decoration: underline; 
+}
+img.wp-post-image{border: 2px solid grey;
+background:white;
+-webkit-box-shadow: 0px 7px 19px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 19px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 19px 0px rgba(0,0,0,0.75);}
+.attachment-full{
+	display:none;
+} 
+.blog-main{background-image:url(http://localhost/thecanvas/wp-content/uploads/2015/10/brickwall.png);}
+.testimg{margin-bottom:0px;
+background:white;}
